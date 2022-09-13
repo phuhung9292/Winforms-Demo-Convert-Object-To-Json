@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Business Layer", "1 Business Layer", "{FDE1AAD2-FB9B-47A5-A672-A8DF0479F8F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Data Layer", "2 Data Layer", "{D0C01F0C-DE6D-41E0-A5D5-30FBA8CBFF8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Presentation Layer", "3 Presentation Layer", "{3FDF2155-F12D-489D-839C-1853DEE12DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasApp", "GasApp\GasApp.csproj", "{F4F6391B-F7A0-4391-8AC6-109EFCB28B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{82970D13-19BE-4627-80FE-AC81FD2B04BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{C8722B77-B869-4FC4-ADFB-5DBDF0F95735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F6391B-F7A0-4391-8AC6-109EFCB28B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F6391B-F7A0-4391-8AC6-109EFCB28B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F6391B-F7A0-4391-8AC6-109EFCB28B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F6391B-F7A0-4391-8AC6-109EFCB28B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82970D13-19BE-4627-80FE-AC81FD2B04BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82970D13-19BE-4627-80FE-AC81FD2B04BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82970D13-19BE-4627-80FE-AC81FD2B04BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82970D13-19BE-4627-80FE-AC81FD2B04BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8722B77-B869-4FC4-ADFB-5DBDF0F95735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8722B77-B869-4FC4-ADFB-5DBDF0F95735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8722B77-B869-4FC4-ADFB-5DBDF0F95735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8722B77-B869-4FC4-ADFB-5DBDF0F95735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4F6391B-F7A0-4391-8AC6-109EFCB28B14} = {3FDF2155-F12D-489D-839C-1853DEE12DCB}
+		{82970D13-19BE-4627-80FE-AC81FD2B04BB} = {FDE1AAD2-FB9B-47A5-A672-A8DF0479F8F7}
+		{C8722B77-B869-4FC4-ADFB-5DBDF0F95735} = {D0C01F0C-DE6D-41E0-A5D5-30FBA8CBFF8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {305F6ED7-EB90-473E-AF6B-E135BDB931D8}
+	EndGlobalSection
+EndGlobal
